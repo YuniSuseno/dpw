@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html >
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Halaman Utama </title>
+    <style>
+        *{
+    text-decoration:none;
+    margin:0px;
+    padding:0px;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.wrapper{
+    width: 1100px;
+    margin:auto;
+    position: relative;
+}
+
+.logo a{
+    font-size: 30px;
+    font-weight: 800;
+    float: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:white;
+}
+
+.menu{
+    float:right;
+}
+
+nav{
+    width: 100%;
+    margin: auto;
+    display:flex;
+    line-height: 80px;
+    position:sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background-color: rgb(233, 195, 145);
+    z-index: 1;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li{
+    float: left;
+}
+
+nav ul li a{
+    color :white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    text-decoration: underline;
+}
+
+.banner{
+    height: 100vh;
+    border: 1px;
+    background-image: url(../images/r.jpg);
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner after{
+    content:"";
+    display: block;
+    position: absolute;
+    top: 0;
+    left:0;
+    right:0;
+    bottom:0;
+    background-color: beige;
+}
+
+.banner h2{
+    color: rgb(255, 255, 255);
+    z-index: 1;
+    padding: 20px,25px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.banner .welcome p {
+    color: rgb(255, 255, 255);
+    z-index: 1;
+    padding: 20px,25px;
+    text-align: center;
+}
+
+.kolom{
+    width: 50%;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.row {
+    display: flex;
+    padding-right: 15px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+img{
+    width: 280px;
+    height: 350px;
+    margin-top: 5px;
+    margin-left: 90px;
+}
+
+.kolom h2{
+    margin-left: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(233, 195, 145);
+    font-size: 20px;
+}
+
+.kolom .writer{
+    margin-left: 100px;
+    margin-top: 7px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.kolom p{
+    margin-left: 650px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+}
+
+a.button2{
+    background-color: rgb(233, 195, 145);
+    border-radius: 20px;
+    margin-top: 100px;
+    padding: 15px 20px 15px 20px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.kolom .isi{
+    margin: 0px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+    margin-left: 90px;
+    text-align: justify;
+}
+
+.kolom .link{
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+    margin-left: 90px;
+}
+
+a.button2:hover{
+    background-color: rgb(211, 169, 114);
+    text-decoration: none;
+}
+
+.footer{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(233, 195, 145);
+    color:white;
+}
+    </style>
+
+    <!-- Menghubungkan ke style -->
+    <!-- <link rel="stylesheet" href="forntend/style/style3.css"> -->
+</head>
+
+<body>
+    <nav>
+        <div class="wrapper">
+            <div class="logo">
+                <a href="">BOOKYU📚</a>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="http://127.0.0.1:5500/AboutMe.html">About Me</a></li>
+                    <li><a href="http://127.0.0.1:5500/CV.html">CV</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Welcome -->
+    <section>
+        <div class="banner">
+            <div class="welcome">
+                <h2>WELCOME TO MY WEBSITE</h2>
+                <p>Hello, Disini Kamu dapat menemukan berbagai review novel yang sedang kamu cari ❤</p>
+             </div>
+        </div>
+    </section>
+
+    <!-- Postingan -->
+    <section>
+        <div class="row">
+            <!-- Mensetting 2 layout -->
+        <div class="kolom">
+            <img src="forntend/images/9786020332956_Bumi-New-Cover.jpg"><br>
+            <br>
+            <h2>Novel Tere-Liye : Bumi</h2>
+            <p class="writer">Writer By Yuni Suseno</p>
+            <p class="isi"> Novel Bumi mengisahkan seorang remaja premempuan bernama raib. dikisahkan bahwa raib.
+                dikisahkan bahwa raib bisa bertemu sosok kurus tinggi bernama Tamus. Makhluk kurus dan tinggi itu
+                muncul di dalm cermin kamar raib. Berbagai keanehan dialami Raib hingga akhirnya di menyadari bahwa 
+                dirinya memiliki kemampuan istimewa. kejadian aneh diawali dengan kasus robohnya tower listrik di 
+                belakang sekolahnya hingga pertemuan raib dengan makhluk tak terduga. 
+            </p>
+            <p class="link"><a href="" class="button2">Baca Juga</a></p>
+        </div> 
+        
+        <div class="kolom">
+            <img src="forntend/images/BULAN-TERE-LIYE.jpg"><br>
+            <br>
+            <h2>Novel Tere-Liye : Bulan</h2>
+            <p class="writer">Write By Yuni Suseno</p>
+            <p class="isi"> Dalam novel Bulan petualangan antara Raib dan kedua kawannya masih berlanjut. Miss selena 
+                akhirnya muncul di sekolah saat beberapa bulan setelah kejadian di klan Bulan. Miss selena memberikan
+                kabar yang menyenagkan bagi para murid yang mempunyai jiwa petualang, seperti Raib, Ali, dan Seli. Miss
+                selena bersama Av berniat untuk mengajak mereka berkunjung ke klan matahari selama kurang lebih dua minggu.
+                Av memiliki rencana hendak menemui ketua konsil klan matahari.
+            </p> 
+            <p class="link"><a href="" class="button2">Baca Juga</a></p>
+        </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <section>S
+        <div class="footer">
+            <footer>
+            <p>@copyright 2022 || By Yuni Suseno ❤<br> Pekanbaru</p>
+            </footer>
+        </div>
+    </section>
+
+    <script src="forntend/script/scriptjs.js"></script>
+</body
+
+
+</html>

@@ -1,0 +1,183 @@
+*{
+    text-decoration:none;
+    margin:0px;
+    padding:0px;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.wrapper{
+    width: 1100px;
+    margin:auto;
+    position: relative;
+}
+
+.logo a{
+    font-size: 30px;
+    font-weight: 800;
+    float: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:white;
+}
+
+.menu{
+    float:right;
+}
+
+nav{
+    width: 100%;
+    margin: auto;
+    display:flex;
+    line-height: 80px;
+    position:sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background-color: rgb(201, 158, 102);
+    z-index: 1;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li{
+    float: left;
+}
+
+nav ul li a{
+    color :white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    text-decoration: underline;
+}
+
+.banner{
+    height: 100vh;
+    border: 1px;
+    background-image: url(../images/r.jpg);
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner after{
+    content:"";
+    display: block;
+    position: absolute;
+    top: 0;
+    left:0;
+    right:0;
+    bottom:0;
+    background-color: beige;
+}
+
+.banner h2{
+    color: rgb(255, 255, 255);
+    z-index: 1;
+    padding: 20px,25px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.banner .welcome p {
+    color: rgb(255, 255, 255);
+    z-index: 1;
+    padding: 20px,25px;
+    text-align: center;
+}
+
+.kolom{
+    width: 50%;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.row {
+    display: flex;
+    padding-right: 15px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+img{
+    width: 280px;
+    height: 350px;
+    margin-top: 5px;
+    margin-left: 90px;
+}
+
+.kolom h2{
+    margin-left: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(233, 195, 145);
+    font-size: 20px;
+}
+
+.kolom .writer{
+    margin-left: 100px;
+    margin-top: 7px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.kolom p{
+    margin-left: 650px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+}
+
+a.button2{
+    background-color: rgb(233, 195, 145);
+    border-radius: 20px;
+    margin-top: 100px;
+    padding: 15px 20px 15px 20px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.kolom .isi{
+    margin: 0px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+    margin-left: 90px;
+    text-align: justify;
+}
+
+.kolom .link{
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+    margin-left: 90px;
+}
+
+a.button2:hover{
+    background-color: rgb(211, 169, 114);
+    text-decoration: none;
+}
+
+.footer{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(233, 195, 145);
+    color:white;
+}
+
